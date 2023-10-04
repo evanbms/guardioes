@@ -73,7 +73,7 @@ main .personagem .imagem {
     width: 180px;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
     background-color: rgba(0, 0, 0, 0.3);
 }
 
