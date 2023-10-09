@@ -1,7 +1,7 @@
 body {
     background-color: #000000;
     overflow:hidden;
-    
+        
 }
 
 main::after {
@@ -65,20 +65,21 @@ main .personagem .imagem {
     margin-bottom: 35px;
 }
 
+
 .botoes {
-    position: fixed;
+    position:absolute;
     top: 0;
     right: 0;
     display: flex;
     flex-direction:column;
-    min-height: 100vh;
+    min-height: 105vh;
     width: 180px;
     justify-content:center;
     align-items:center;
-    column-gap:0px;
+    gap:1px;
     background-color: rgba(0, 0, 0, 0.3);
-    overflow-y:scroll;
-        
+                  
+            
 }
 
 .botoes .botao {
@@ -86,6 +87,7 @@ main .personagem .imagem {
     background: black;
     cursor: pointer;
     border-radius: 50%;
+    
 }
 
 .botoes .botao img {
